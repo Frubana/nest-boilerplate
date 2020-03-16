@@ -138,16 +138,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@go1f/nestjs-kafka-client@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@go1f/nestjs-kafka-client/-/nestjs-kafka-client-0.0.8.tgz#1849b5d0aa861668a3d424fbe7b12e2faa7577a6"
-  integrity sha512-eY6QdLYOitOhG6nUXSHmXzEe4O2zI6itkcNk/tmd8e1rfVKmb6LkivOk/+/ZyD7vjWm5W5XMhUmHOzJLeDPDtw==
-  dependencies:
-    "@nestjs/common" "^6.7.2"
-    "@nestjs/core" "^6.7.2"
-    kafkajs "github:tulios/kafkajs#d33fc003ad1ad470fea4bd356833bbe540020930"
-    reflect-metadata "^0.1.13"
-
 "@godaddy/terminus@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@godaddy/terminus/-/terminus-4.2.1.tgz#4698f05a9f1322d9abe931e258f8ed3cfd941997"
@@ -321,15 +311,6 @@
     cli-color "2.0.0"
     uuid "3.3.3"
 
-"@nestjs/common@^6.7.2":
-  version "6.10.12"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-6.10.12.tgz#3ac48b5ec305243802320c5c53480fab3a5c1820"
-  integrity sha512-UWQ3HqMDVAf85HNZAgahT0Ig7/4WGI1jE+UvZlNMIrLcI8y98LHwbS8fwHUxdRYW9L7NEDTYn8oBL6lS+z4OWA==
-  dependencies:
-    axios "0.19.0"
-    cli-color "2.0.0"
-    uuid "3.3.3"
-
 "@nestjs/core@^6.0.0":
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-6.9.0.tgz#cf4ceb19b699f838f2dc5bc46797f6e357f2cfc8"
@@ -339,17 +320,6 @@
     fast-safe-stringify "2.0.7"
     iterare "1.2.0"
     object-hash "2.0.0"
-    uuid "3.3.3"
-
-"@nestjs/core@^6.7.2":
-  version "6.10.12"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-6.10.12.tgz#546363837e3cf9a4467e24c4cd8902e9a492668b"
-  integrity sha512-pZ+KK7BQ9OH6ZSQoakbodFTuoUqa14WDJ/d1GQZbDpkGGOv26rmitjHmuBRMkttkHHsSvLtU1Y2e4vtMFevDcA==
-  dependencies:
-    "@nuxtjs/opencollective" "0.2.2"
-    fast-safe-stringify "2.0.7"
-    iterare "1.2.0"
-    object-hash "2.0.1"
     uuid "3.3.3"
 
 "@nestjs/microservices@6.7.2":
@@ -754,9 +724,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.3.0"
@@ -3384,12 +3354,6 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-"kafkajs@github:tulios/kafkajs#d33fc003ad1ad470fea4bd356833bbe540020930":
-  version "1.11.0"
-  resolved "https://codeload.github.com/tulios/kafkajs/tar.gz/d33fc003ad1ad470fea4bd356833bbe540020930"
-  dependencies:
-    long "^4.0.0"
-
 kareem@2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-2.3.1.tgz#def12d9c941017fabfb00f873af95e9c99e1be87"
@@ -4036,11 +4000,6 @@ object-hash@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-2.0.0.tgz#7c4cc341eb8b53367312a7c546142f00c9e0ea20"
   integrity sha512-I7zGBH0rDKwVGeGZpZoFaDhIwvJa3l1CZE+8VchylXbInNiCj7sxxea9P5dTM4ftKR5//nrqxrdeGSTWL2VpBA==
-
-object-hash@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-2.0.1.tgz#cef18a0c940cc60aa27965ecf49b782cbf101d96"
-  integrity sha512-HgcGMooY4JC2PBt9sdUdJ6PMzpin+YtY3r/7wg0uTifP+HJWW8rammseSEHuyt0UeShI183UGssCJqm1bJR7QA==
 
 object-inspect@^1.6.0:
   version "1.6.0"
